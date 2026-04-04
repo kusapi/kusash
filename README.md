@@ -1,4 +1,4 @@
-#KusaSH
+#kusash
 
 Eğlence amaçlı yapılmış bir UNZBK Group ürünüdür.
 
