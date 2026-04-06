@@ -54,7 +54,7 @@ git clone https://github.com/kusapi/kusash
 
 cd kusash
 
-source .vevm/bin/activate
+pip install rich pyfiglet
 
 python3 kusashv02.py
 
