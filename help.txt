@@ -1,0 +1,83 @@
+🧠 KuSaSH Komut Kullanımı
+
+🔹 try (Ana Komut)
+Ekler ile birlikte kullanılır:
+
+📖 --help
+Kullanım:
+try --help
+Açıklama:
+Yardım menüsünü görüntüler.
+
+⚙️ -e
+Kullanım:
+try -e <komut>
+Açıklama:
+Kullanıcı yetkisiyle terminal komutlarını çalıştırır (sudo gerekmez).
+
+🔐 --e
+Kullanım:
+try --e <komut>
+Açıklama:
+Sudo gerektiren komutları çalıştırır. Kullanıcıdan şifre ister.
+
+🖨️ -p
+Kullanım:
+try -p <yazı>
+Açıklama:
+Terminale sarı renkli yazı yazdırır.
+Not: v0.3'te renk seçme özelliği gelecek 😉
+
+📁 -cd
+Kullanım:
+try -cd <konum>
+Açıklama:
+Belirtilen dizine geçiş yapar.
+
+📦 -pkg
+Kullanım:
+try -pkg
+Adımlar:
+1. Paket yöneticisini gir (örn: apt, pacman)
+2. İndirmek istediğin paketi yaz
+3. Sudo izni ver
+Açıklama:
+Shell’den çıkmadan paket kurmanı sağlar.
+
+🖥️ --kusafetch
+Kullanım:
+try --kusafetch
+Açıklama:
+Sistem bilgilerini gösterir (neofetch çıktısı).
+
+🌐 network Komutu
+Ağ işlemleri için kullanılır:
+
+📡 -mgr
+Kullanım:
+network -mgr
+Açıklama:
+iwctl arayüzünü açar, temel ağ işlemlerini yapabilirsin.
+
+📶 --ping
+Kullanım:
+network --ping
+Adımlar:
+1. IP adresi gir
+2. Ping sayısını belirle
+3. Sonuçları gözlemle
+
+📡 --scan
+Kullanım:
+network --scan
+Açıklama:
+Etraftaki Wi-Fi ağlarını tarar ve:
+- SSID
+- Sinyal gücü
+bilgilerini gösterir.
+
+💀 Genel Not
+
+Komutlar yanlış girilirse hata mesajı alırsın
+Eksik parametre → hata verir
+Shell stabilitesi için doğru kullanım önemli!!!
