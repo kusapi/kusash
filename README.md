@@ -4,7 +4,7 @@
 Eğlence amaçlı yapılmış bir UNZBK Group ürünüdür.
 
 
-~ ❗​Kurulması/Güncellenmesi Gereken Paketler❗​ ~
+## ~ ❗​Kurulması/Güncellenmesi Gereken Paketler❗​ ~
 
 python3
 
@@ -12,8 +12,16 @@ python3-venv
 
 git
 
+nmap
 
-~ ❗​ASIL KURULUM❗​ ~
+iwd
+
+neofetch
+
+network-manager
+
+
+## ~ ❗​ASIL KURULUM❗​ ~
 
 < v0.1 için! >
 
@@ -29,7 +37,7 @@ pip install -r requirements.txt
 
 python3 main.py
 
-~ ❗​Kullanım❗​ ~
+## ~ ❗​Kullanım❗​ ~
 
 
 < v0.1 için! >
@@ -46,7 +54,7 @@ try --whoami
 
 try --help
 
-~ ❗​ASIL KURULUM❗​ ~
+## ~ ❗​ASIL KURULUM❗​ ~
 
 < v0.2 için! >
 
