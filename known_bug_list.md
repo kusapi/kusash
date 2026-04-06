@@ -73,7 +73,3 @@ Açıklama: Paket adı veya paket yöneticisi yanlış girilirse shell bazen eks
 6️⃣ --kusafetch Compatibility
 
 Açıklama: Sistemler arası (Windows/Linux/WSL) neofetch komutu çalışmayabilir.
-
-
-
-🟡 --kusafetch zayıf çıktı → düz ve çirkin tuple basıyo
