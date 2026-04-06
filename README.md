@@ -15,8 +15,9 @@ git
 
 ~ ❗​ASIL KURULUM❗​ ~
 
+< v0.1 için! >
 
-git clone https://github.com/kusapi/kusash.git
+git clone https://github.com/kusapi/kusash
 
 cd kusash
 
@@ -44,4 +45,19 @@ try --kusafetch
 try --whoami
 
 try --help
-​
+
+~ ❗​ASIL KURULUM❗​ ~
+
+< v0.2 için! >
+
+git clone https://github.com/kusapi/kusash
+
+cd kusash
+
+source .vevm/bin/activate
+
+python3 kusashv02.py
+
+
+< Kullanım help.txt içinde! >
+
