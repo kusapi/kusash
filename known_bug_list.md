@@ -48,5 +48,32 @@
 🟡 Prompt basit → profesyonel görünmüyor
 
 
+🐛 KuSaSH Known Bugs (v0.2)
 
-🟡 --kusafetch zayıf çıktı → düz ve çirkin tuple basıyor
+1️⃣ Ctrl-C ve Ctrl-D Kapanmaları
+
+Açıklama: Shell’den çıkarken bazen hatalı kapanabiliyor veya traceback veriyor.
+
+2️⃣ Empty Input Hataları
+
+Açıklama: try -e veya network --ping gibi parametreler boş bırakılırsa shell bazen IndexError veriyor.
+
+3️⃣ Network --ping Invalid Input
+
+Açıklama: IP adresi veya ping sayısı boş veya geçersiz girildiğinde shell bazen düzgün hata vermiyor.
+
+4️⃣ Network --scan Display Issue
+
+Açıklama: Çok fazla Wi-Fi ağında çıktı kayabilir veya terminal formatting bozulabilir.
+
+5️⃣ -pkg Edge Cases
+
+Açıklama: Paket adı veya paket yöneticisi yanlış girilirse shell bazen eksik hata mesajı veriyor.
+
+6️⃣ --kusafetch Compatibility
+
+Açıklama: Sistemler arası (Windows/Linux/WSL) neofetch komutu çalışmayabilir.
+
+
+
+🟡 --kusafetch zayıf çıktı → düz ve çirkin tuple basıyo
